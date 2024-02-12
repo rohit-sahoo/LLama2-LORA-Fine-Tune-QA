@@ -2,6 +2,7 @@
 
 
 This project enhances the question-answering capabilities of the 7B-parameter Llama 2 Large Language Model (LLM) through Low-Rank Adaptation (LORA) and incorporates Retrieval Augmented Generation (RAG). It focuses on a specialized dataset from Databricks, consisting of high-quality, AI-generated prompt/response pairs across various instruction categories. RAG dynamically enriches the LLM's input with relevant information, significantly improving the model's ability to generate accurate and contextually rich responses.
+
 **Table of Contents**
 
 - Features
