@@ -12,7 +12,7 @@ if __name__ == '__main__':
     llama = Llama()
 
     # Initialize the dataset.
-    dataset = Dataset('databricks/databricks-dolly-15k-curated-en', llama.max_length)
+    dataset = Dataset('databricks-dolly-15k-context-rag.json', llama.max_length)
 
     # Preprocess the dataset using the Llama tokenizer.
     data = dataset.preprocess_dataset(llama.tokenizer)
